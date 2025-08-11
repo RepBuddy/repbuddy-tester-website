@@ -44,7 +44,7 @@ export default function Home() {
         <Checkbox id="privacypolicy" label="I agree to the" span="Privacy Policy" checked={agreed} setChecked={setAgreed} url="https://www.repbuddy.org/privacy-policy" />
       </div>
       <div className="flex flex-col items-center justify-center w-full">
-        <Button agreed={agreed} onClick={() => handleSignUp()} children="Sign Up" />
+        <Button agreed={agreed} onClick={() => handleSignUp()} text="Sign Up" />
       </div>
 
       {signedUp && (

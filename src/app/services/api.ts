@@ -1,6 +1,6 @@
 "use server";
 
-export const addTester = async (email: any) => {
+export const addTester = async (email: string) => {
     const API_URL = process.env.NEXT_PUBLIC_API_URL;
     const AUTH_KEY = process.env.AUTH_KEY;
 
